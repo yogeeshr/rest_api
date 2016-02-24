@@ -1,0 +1,30 @@
+REST Api
+------------------------------------------------------------------------
+
+#1. Create a maven webapp project in IntelliJ
+
+#2. Create a folder named "java" under src/main
+
+#3. Mark "java" as source 
+
+#4. Alter pom.xml (already generated) to add dependency and plugins
+
+#5. Update web.xml as in repos (Feel free to change names accordingly)
+
+#6. Implement as code as in repose
+
+#7. Build artifcat ( build -> artifcats )
+
+#8. Deploy .war from target to tomcat->webapps folder
+
+#9. Start Tomcat
+
+#10. Test if your service is working fine
+
+	Get  : 
+	curl http://localhost:8080/YogeeshRESTApi/api/restcallget
+
+	Post : 
+	curl -v http://localhost:8080/YogeeshRESTApi/api/restcallpost -d '{"text" : "Hello"}' -H 'Content-Type: application/json'
+
+------------------------------------------------------------------------
