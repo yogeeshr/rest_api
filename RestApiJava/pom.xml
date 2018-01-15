@@ -67,6 +67,9 @@
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <path>/YogeeshRESTApi/api/</path>
+                </configuration>
                 <version>2.2</version>
             </plugin>
 
